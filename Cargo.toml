@@ -1,0 +1,15 @@
+[package]
+name = "rustc-ice-221120"
+version = "0.0.1"
+edition = "2021"
+repository = "https://github.com/MilkFather/rustc-ice-221120"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jsonrpsee = { version = "0.16", features = [ "server", "macros", "client-core" ] }
+serde = { version = "1.0", features = [ "derive" ] }
+serde_json = "1.0"
+tokio = { version = "1.19", features = [ "macros", "rt", "rt-multi-thread", "signal" ] }
+
+[dev-dependencies]
