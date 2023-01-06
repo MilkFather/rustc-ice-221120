@@ -10,6 +10,6 @@ repository = "https://github.com/MilkFather/rustc-ice-221120"
 jsonrpsee = { version = "0.16", features = [ "server", "macros", "client-core" ] }
 serde = { version = "1.0", features = [ "derive" ] }
 serde_json = "1.0"
-tokio = { version = "1.19", features = [ "macros", "rt", "rt-multi-thread", "signal" ] }
+tokio = { version = "1.23", features = [ "macros", "rt", "rt-multi-thread", "signal" ] }
 
 [dev-dependencies]
